@@ -75,7 +75,7 @@ const UpdateProduct = () => {
             {loading && <FullScreenLoader />}
         <Container>
             <h1>Update Food Item</h1>
-            <Form onSubmit={handleSubmit}>
+            <Form style={{ marginTop: '70px', marginBottom: "30px" }} onSubmit={handleSubmit}>
                 <Row className="mb-3">
                     <Col xs={12} md={6} lg={4}>
                         <Form.Group controlId="formFoodName">
